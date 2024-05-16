@@ -18,10 +18,27 @@ frutta.push('pesca')
 //     3. verificare se nell'array di frutta c'è il cocomero:
 //     - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
 //     - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!
-if ((frutta[6] != 'cocomero'))/*se array frutta contiene stringa diversa da 'cocomero'*/{
-    console.log('Oh no, devo uscire a comprare il cocomero!') 
-} else
-    console.log('Trovato! Devo solo preparare il cocktail.')
+
+let i, trovato, fruttaDaCercare
+
+fruttaDaCercare = 'cocomero'
+trovato = false
+
+for (i=0;i<frutta.length;i++){
+    if (frutta[i]==fruttaDaCercare){
+        trovato = true
+    } else {
+        trovato = false
+    }   
+}
+console.log(trovato)
+
+if (trovato!=false){
+    console.log('Oh no, devo uscire a comprare il cocomero!')
+} else {
+    console.log('Trovato! Devo solo preparare il cocktail.') 
+}  
+
 // "Suggerimenti/Indicazioni:
 //     Sì, lo sappiamo che esistono le funzioni includes() e indexOf() ma noi non le vogliamo utilizzare per cercare nel frigorifero.
 
