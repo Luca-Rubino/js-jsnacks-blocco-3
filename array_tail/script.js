@@ -12,3 +12,10 @@ for(i = 0; i < userNumberElement; i++){
 }
 // stampo in console gli ultimi 5 elementi dell'array
 console.log(numberList.slice(-5))
+
+// Bonus
+
+// creo richiesta per chiedere all'utente quanti elementi devo stampare 
+const userPrintElement = Number.parseInt(prompt("Quanti elementi devo stampare?"))
+// stampo il numero di elementi richiesti
+console.log(numberList.slice(-userPrintElement))
