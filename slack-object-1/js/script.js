@@ -42,43 +42,43 @@ const automobili = [
         alimentazione:'gpl'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Mustang',
+        modello:'SVT Cobra R',
         alimentazione:'benzina'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Mustang',
+        modello:'Giugiaro Concept',
         alimentazione:'benzina'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Mustang',
+        modello:'GT 550R Tjaarda',
         alimentazione:'disel'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Mustang',
+        modello:'Cobra Jet Twin-Turbo',
         alimentazione:'disel'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Mustang',
+        modello:'F35 Lighting II Edition',
         alimentazione:'eletrico'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Lamborghini',
+        modello:'Aventador S Roadster',
         alimentazione:'metano'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Lamborghini',
+        modello:'Huracán EVO RWD',
         alimentazione:'eletrico'
     },
     {
-        marca:'Fiat',
-        modello:'Punto evo',
+        marca:'Lamborghini',
+        modello:'Huracán EVO Spyder',
         alimentazione:'gpl'
     },
 ];
