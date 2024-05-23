@@ -84,3 +84,75 @@ const automobili = [
 ];
 
 console.log(automobili)
+
+const gasAutos = []
+const dieselAuto = []
+const otherAuto = []
+
+// for(let i=0;i<automobili.length;i++){
+//     const element=automobili[i]
+//     if(){}else if(){} else
+// }
+
+console.log(gasAutos)
+console.log(dieselAuto)
+console.log(otherAuto)
+
+
+// Crea un array di oggetti che rappresentano delle persone, 10.
+// Ogni persona ha un nome, un cognome e un'età.
+
+// Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l'indicazione se può guidare, in base all'età.
+
+const persone = [
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+    {
+        nome:'Mauro',
+        cognome:'Rossi',
+        età:51
+    },
+]
