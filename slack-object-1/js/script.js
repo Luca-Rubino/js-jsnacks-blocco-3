@@ -156,3 +156,13 @@ const persone = [
         età:51
     },
 ]
+
+console.log(persone)
+
+const personeGuidatori = []
+
+for(i=0;i<persone.length;i++){
+    if(persone.filter((età) => {
+        return eta < 50
+    }))
+}
