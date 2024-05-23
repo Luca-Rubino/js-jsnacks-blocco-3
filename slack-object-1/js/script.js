@@ -162,7 +162,9 @@ console.log(persone)
 const personeGuidatori = []
 
 for(i=0;i<persone.length;i++){
-    if(persone.filter((età) => {
-        return eta < 50
-    }))
+    if(persone.eta < 50){
+        personeGuidatori.push[eta]
+    }
 }
+
+console.log(personeGuidatori)
