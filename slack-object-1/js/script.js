@@ -162,8 +162,8 @@ console.log(persone)
 const personeGuidatori = []
 
 for(i=0;i<persone.length;i++){
-    if(persone.eta < 50){
-        personeGuidatori.push[eta]
+    if(persone.eta < 80){
+        personeGuidatori.push[persone.eta]
     }
 }
 
