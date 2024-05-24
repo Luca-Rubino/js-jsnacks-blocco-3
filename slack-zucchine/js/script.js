@@ -80,7 +80,10 @@ console.log(pesoTotale)
 
 const browser = {
     "tab": ["Facebook", "GitHub", "Gmail","Youtube","Instagram"],
-    "activeTab": 2
+    "activeTab": 0
 }
+console.log(browser.tab)
 
+const tab = browser.tab
 
+console.log(tab)
